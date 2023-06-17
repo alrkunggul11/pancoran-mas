@@ -28,7 +28,7 @@ body {
 }
 @media (min-width: 992px) {
   .navbar-header .navbar-right .dropdown-message .dropdown-menu,
-.navbar-header .navbar-right .dropdown-notification .dropdown-menu {
+  .navbar-header .navbar-right .dropdown-notification .dropdown-menu {
     margin-top: 19px;
   }
 }
@@ -112,8 +112,7 @@ body {
 .dropdown-message .dropdown-item:hover .avatar::after, .dropdown-message .dropdown-item:focus .avatar::after,
 .dropdown-notification .dropdown-item:hover .avatar::after,
 .dropdown-notification .dropdown-item:focus .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #24324d;
-          box-shadow: 0 0 0 2px #24324d;
+  box-shadow: 0 0 0 2px #24324d;
 }
 .dropdown-message .media-body,
 .dropdown-notification .media-body {
@@ -125,8 +124,7 @@ body {
 }
 .dropdown-message .avatar::after,
 .dropdown-notification .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 .dropdown-message .dropdown-footer a:hover, .dropdown-message .dropdown-footer a:focus,
 .dropdown-notification .dropdown-footer a:hover,
@@ -215,8 +213,7 @@ body {
   color: #fff;
 }
 .aside-alert-link a.new::before {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 
 .aside-loggedin-user a:hover, .aside-loggedin-user a:focus {
@@ -375,18 +372,6 @@ h1, h2, h3, h4, h5, h6,
 .form-control {
   background-color: transparent;
   border-color: #3b4863;
-}
-.form-control::-webkit-input-placeholder {
-  color: #596882;
-}
-.form-control::-moz-placeholder {
-  color: #596882;
-}
-.form-control:-ms-input-placeholder {
-  color: #596882;
-}
-.form-control::-ms-input-placeholder {
-  color: #596882;
 }
 .form-control::placeholder {
   color: #596882;
@@ -583,8 +568,7 @@ h1, h2, h3, h4, h5, h6,
   border-color: #596882;
 }
 .calendar-modal-create .form-control:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   border-color: #7987a1;
 }
 .calendar-modal-create select {
@@ -671,27 +655,23 @@ h1, h2, h3, h4, h5, h6,
   background-color: #1c273c;
 }
 .chat-msg-list .media:hover .avatar::after, .chat-msg-list .media:focus .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 .chat-msg-list .media.active {
   background-color: #1c273c;
 }
 .chat-msg-list .media.active .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 .chat-msg-list .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 
 .chat-sidebar-footer {
   background-color: #172032;
 }
 .chat-sidebar-footer .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 .chat-sidebar-footer a {
   color: #97a3b9;
@@ -708,8 +688,7 @@ h1, h2, h3, h4, h5, h6,
   background-color: #172032;
 }
 .chat-content-header .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 .chat-content-header nav a {
   color: #97a3b9;
@@ -736,8 +715,7 @@ h1, h2, h3, h4, h5, h6,
   color: #97a3b9;
 }
 .chat-content-body .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 
 .chat-group .media-body h6 small {
@@ -760,18 +738,6 @@ h1, h2, h3, h4, h5, h6,
 .chat-content-footer .form-control {
   color: #cdd4e0;
 }
-.chat-content-footer .form-control::-webkit-input-placeholder {
-  color: #3b4863;
-}
-.chat-content-footer .form-control::-moz-placeholder {
-  color: #3b4863;
-}
-.chat-content-footer .form-control:-ms-input-placeholder {
-  color: #3b4863;
-}
-.chat-content-footer .form-control::-ms-input-placeholder {
-  color: #3b4863;
-}
 .chat-content-footer .form-control::placeholder {
   color: #3b4863;
 }
@@ -786,8 +752,7 @@ h1, h2, h3, h4, h5, h6,
   background-color: #172032;
 }
 .chat-sidebar-right .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 
 .chat-member-list .media:hover, .chat-member-list .media:focus {
@@ -825,23 +790,20 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .contact-list .media .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #141c2b;
-          box-shadow: 0 0 0 2px #141c2b;
+  box-shadow: 0 0 0 2px #141c2b;
 }
 .contact-list .media:hover, .contact-list .media:focus {
   background-color: #1c273c;
   color: #fff;
 }
 .contact-list .media:hover .avatar::after, .contact-list .media:focus .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1c273c;
-          box-shadow: 0 0 0 2px #1c273c;
+  box-shadow: 0 0 0 2px #1c273c;
 }
 .contact-list .media.active {
   background-color: #1f2c43;
 }
 .contact-list .media.active .avatar::after {
-  -webkit-box-shadow: 0 0 0 2px #1f2c43;
-          box-shadow: 0 0 0 2px #1f2c43;
+  box-shadow: 0 0 0 2px #1f2c43;
 }
 
 .contact-list-divider::before, .contact-list-divider::after {
@@ -1020,24 +982,11 @@ h1, h2, h3, h4, h5, h6,
 .mail-compose-body {
   border-width: 0;
   background-color: #172032;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   color: #97a3b9;
 }
 .mail-compose-body .form-control {
   background-color: transparent;
-}
-.mail-compose-body .form-control::-webkit-input-placeholder {
-  color: #596882;
-}
-.mail-compose-body .form-control::-moz-placeholder {
-  color: #596882;
-}
-.mail-compose-body .form-control:-ms-input-placeholder {
-  color: #596882;
-}
-.mail-compose-body .form-control::-ms-input-placeholder {
-  color: #596882;
 }
 .mail-compose-body .form-control::placeholder {
   color: #596882;
@@ -1056,8 +1005,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .page-profile .avatar::after {
-  -webkit-box-shadow: 0 0 0 1.5px #141c2b;
-          box-shadow: 0 0 0 1.5px #141c2b;
+  box-shadow: 0 0 0 1.5px #141c2b;
 }
 
 .list-inline-skills .list-inline-item a {
@@ -1076,8 +1024,7 @@ h1, h2, h3, h4, h5, h6,
 
 .df-settings-link {
   border-width: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .df-settings-body {

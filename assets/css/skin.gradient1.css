@@ -1,7 +1,6 @@
 .navbar-header {
   border-bottom-color: transparent;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #015de1), color-stop(75%, #560bdf));
   background-image: linear-gradient(to right, #015de1 0, #560bdf 75%);
   background-repeat: repeat-x;
 }
@@ -19,7 +18,6 @@
   color: #fff;
 }
 .navbar-header .navbar-menu-header {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #015de1), color-stop(75%, #560bdf));
   background-image: linear-gradient(to right, #015de1 0, #560bdf 75%);
   background-repeat: repeat-x;
 }
@@ -86,8 +84,7 @@
 }
 .navbar-header .dropdown-menu {
   border-width: 0;
-  -webkit-box-shadow: 0 0 8px 2px rgba(28, 39, 60, 0.1);
-          box-shadow: 0 0 8px 2px rgba(28, 39, 60, 0.1);
+  box-shadow: 0 0 8px 2px rgba(28, 39, 60, 0.1);
 }
 .navbar-header .btn-social {
   color: rgba(255, 255, 255, 0.5);
@@ -131,7 +128,6 @@
 
 .aside-body {
   border-top-width: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #560bdf), to(#015de1));
   background-image: linear-gradient(to bottom, #560bdf 20%, #015de1 100%);
   background-repeat: repeat-x;
 }
@@ -157,8 +153,7 @@
   color: #fff;
 }
 .aside-alert-link a.new::before {
-  -webkit-box-shadow: 0 0 0 2px #560bdf;
-          box-shadow: 0 0 0 2px #560bdf;
+  box-shadow: 0 0 0 2px #560bdf;
   background-color: #08deff;
 }
 
@@ -212,7 +207,6 @@
 @media (max-width: 991.98px) {
   .content-header {
     background-color: #560bdf;
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #560bdf), to(#015de1));
     background-image: linear-gradient(to right, #560bdf 20%, #015de1 100%);
     background-repeat: repeat-x;
     border-bottom-width: 0;

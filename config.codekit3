@@ -22341,12 +22341,12 @@
       "oAP" : "\/build\/template\/classic-plus\/app-calendar.html",
       "oF" : 1
     },
-    "\/template\/classic-plus\/app-chat.html" : {
+    "\/template\/classic-plus\/service.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/template\/classic-plus\/app-chat.html",
+      "oAP" : "\/build\/template\/classic-plus\/service.html",
       "oF" : 1
     },
     "\/template\/classic-plus\/app-contacts.html" : {
@@ -22453,12 +22453,12 @@
       "oAP" : "\/build\/template\/classic\/app-calendar.html",
       "oF" : 1
     },
-    "\/template\/classic\/app-chat.html" : {
+    "\/template\/classic\/service.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/template\/classic\/app-chat.html",
+      "oAP" : "\/build\/template\/classic\/service.html",
       "oF" : 1
     },
     "\/template\/classic\/app-contacts.html" : {

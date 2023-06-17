@@ -48,8 +48,7 @@
 @media (min-width: 992px) {
   .navbar-header .navbar-menu-sub {
     margin-top: 1px;
-    -webkit-box-shadow: 0 0 8px rgba(28, 39, 60, 0.06);
-            box-shadow: 0 0 8px rgba(28, 39, 60, 0.06);
+    box-shadow: 0 0 8px rgba(28, 39, 60, 0.06);
   }
 }
 .navbar-header .navbar-menu-sub::before {
@@ -83,8 +82,7 @@
 }
 .navbar-header .dropdown-menu {
   border-width: 0;
-  -webkit-box-shadow: 0 0 8px 2px rgba(28, 39, 60, 0.1);
-          box-shadow: 0 0 8px 2px rgba(28, 39, 60, 0.1);
+  box-shadow: 0 0 8px 2px rgba(28, 39, 60, 0.1);
 }
 .navbar-header .btn-social {
   color: rgba(255, 255, 255, 0.5);
@@ -188,8 +186,7 @@
   color: #fff;
 }
 .aside-alert-link a.new::before {
-  -webkit-box-shadow: 0 0 0 2px #052fac;
-          box-shadow: 0 0 0 2px #052fac;
+  box-shadow: 0 0 0 2px #052fac;
   background-color: #ff2f94;
 }
 
