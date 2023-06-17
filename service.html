@@ -161,6 +161,26 @@
       <!-- append theme customizer -->
       <script src="lib/js-cookie/js.cookie.js"></script>
       <script src="assets/js/dashforge.settings.js"></script>
-      
+
+      <script>
+        $(function(){
+          'use strict'
+  
+          window.darkMode = function(){
+            $('.btn-white').addClass('btn-dark').removeClass('btn-white');
+          }
+  
+          window.lightMode = function() {
+            $('.btn-dark').addClass('btn-white').removeClass('btn-dark');
+          }
+  
+          var hasMode = Cookies.get('df-mode');
+          if(hasMode === 'dark') {
+            darkMode();
+          } else {
+            lightMode();
+          }
+        })
+      </script>
     </body>  
 </html>

@@ -292,7 +292,22 @@
                   'rgb(255, 128, 0);', 'hsv 100 70 50'],
                   ['red', 'yellow', 'green', 'blue', 'violet']
               ]
-          });
+            });
+
+            window.darkMode = function(){
+              $('.btn-white').addClass('btn-dark').removeClass('btn-white');
+            }
+    
+            window.lightMode = function() {
+              $('.btn-dark').addClass('btn-white').removeClass('btn-dark');
+            }
+    
+            var hasMode = Cookies.get('df-mode');
+              if(hasMode === 'dark') {
+                darkMode();
+              } else {
+                lightMode();
+              }
           })
         </script>
     </body>
