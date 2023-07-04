@@ -46,6 +46,7 @@
     "leaflet": "^1.5.1",
     "lightslider": "^1.1.6",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.43",
     "morris.js": "github:morrisjs/morris.js",
     "node-sass": "^8.0.0",
     "parsleyjs": "^2.9.1",

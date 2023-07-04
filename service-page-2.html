@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@aturjadwal">
+    <meta name="twitter:creator" content="@aturjadwal">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aturjadwal">
+    <meta name="twitter:description" content="Kalender online pintar untuk berbagai kebutuhan">
+
+    <!-- Facebook -->
+    <meta property="og:title" content="Aturjadwal">
+    <meta property="og:description" content="Kalender online pintar untuk berbagai kebutuhan">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+
+    <!-- Meta -->
+    <meta name="description" content="Aturjadwal | Kalender online pintar untuk berbagai kebutuhan">
+    <meta name="author" content="Aturjadwal">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+    <title>Aturjadwal | Dashboard - Layanan</title>
+
+    <!-- Vendor css -->
+    <link href="lib/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/jqvmap/jqvmap.min.css" rel="stylesheet">
+
+    <!-- DashForge CSS -->
+    <link href="assets/css/dashforge.css" rel="stylesheet">
+    <link href="assets/css/dashforge.dashboard.css" rel="stylesheet">
+    <link href="assets/css/dashforge.calendar.css" rel="stylesheet">
+    <link href="lib/quill/quill.core.css" rel="stylesheet">
+    <link href="lib/quill/quill.snow.css" rel="stylesheet">
+    <link href="lib/quill/quill.bubble.css" rel="stylesheet">
+    <link href="lib/select2/css/select2.min.css" rel="stylesheet">
+    <link href="lib/spectrum-colorpicker/spectrum.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons-core.min.css" rel="stylesheet">
+    <link href="lib/jquery-simple-datetimepicker/jquery.simple-dtpicker.css" rel="stylesheet">
+
+    <!-- Personal CSS -->
+    <link href="lib/newElement/css/newElement.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <aside class="aside aside-fixed">
+      <div class="aside-header">
+        <a href="index.html" class="aside-logo">atur<span>jadwal</span></a>
+        <a href="" class="aside-menu-link">
+          <i data-feather="menu"></i>
+          <i data-feather="x"></i>
+        </a>
+      </div>
+      <div class="aside-body">
+        <div class="aside-loggedin">
+          <div class="d-flex align-items-center justify-content-start">
+            <a href="" class="avatar"><img src="https://via.placeholder.com/500" class="rounded-circle" alt=""></a>
+          </div>
+          <div class="aside-loggedin-user">
+            <a href="#loggedinMenu" class="d-flex align-items-center justify-content-between mg-b-2" data-toggle="collapse">
+              <h6 class="tx-semibold mg-b-0">Monikasmua</h6>
+              <i data-feather="chevron-down"></i>
+            </a>
+            <p class="tx-color-03 tx-12 mg-b-0">monikasmua@gmail.com</p>
+          </div>
+          <div class="collapse" id="loggedinMenu">
+            <ul class="nav nav-aside mg-b-0">
+              <li class="nav-item with-sub">
+                <a href="" class="nav-link"><i data-feather="settings"></i> <span>Pengaturan</span></a>
+                <ul>
+                  <li><a href="page-profile-view.html">Profil</a></li>
+                  <li><a href="page-profile-view.html">Umum</a></li>
+                  <li><a href="page-connections.html">Akun</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="" class="nav-link"><i data-feather="credit-card"></i> <span>Pembayaran</span></a></li>
+              <li class="nav-item"><a href="" class="nav-link"><i data-feather="log-out"></i> <span>Keluar</span></a></li>
+            </ul>
+          </div>
+        </div><!-- aside-loggedin -->
+        
+        <ul class="nav nav-aside">
+          <li class="nav-item"><a href="index.html" class="nav-link"><i data-feather="home"></i> <span>Beranda</span></a></li>
+          <li class="nav-item"><a href="dashboard-two.html" class="nav-link"><i data-feather="pie-chart"></i> <span>Laporan</span></a></li>
+          <li class="nav-item"><a href="calendar.html" class="nav-link"><i data-feather="calendar"></i> <span>Kalender</span></a></li>
+          <li class="nav-label mg-t-25">Pesanan</li>
+          <li class="nav-item"><a href="appointment.html" class="nav-link"><i data-feather="clock"></i> <span>Daftar Pesanan</span></a></li>
+          <li class="nav-item"><a href="customer.html" class="nav-link"><i data-feather="users"></i> <span>Daftar Pelanggan</span></a></li>
+          <li class="nav-label mg-t-25">Layanan &amp; Jadwal</li>
+          <li class="nav-item active"><a href="service.html" class="nav-link"><i data-feather="list"></i> <span>Atur Layanan</span></a></li>
+          <li class="nav-item"><a href="app-mail.html" class="nav-link"><i data-feather="watch"></i> <span>Atur Jam Kerja</span></a></li>
+          <li class="nav-label mg-t-25">Pengaturan</li>
+          <li class="nav-item"><a href="components" class="nav-link"><i data-feather="file-text"></i> <span>Profil</span></a></li>
+          <li class="nav-item"><a href="components" class="nav-link"><i data-feather="gift"></i> <span>Akun</span></a></li>
+          <li class="nav item"><a href="components" class="nav-link"><i data-feather=""></i> <span>Lainnya</span></a></li>
+          <li class="nav-item with-sub"></li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="content ht-100v pd-0">
+      <header class="content-header">
+        <a href="" class="nav-link"><i data-feather="link-2"></i> aturjadwal.com/<b>monikasmua</b></a>
+        <nav class="nav">
+          <a href="" class="nav-link"><i data-feather="help-circle"></i></a>
+        </nav>
+      </header><!-- content-header -->
+      
+      <div class="content-body align-items-center">
+        <div class="mg-b-20 mg-lg-b-25 mg-xl-b-30">
+          <div class="row row-xs">
+            <div class="col-sm-24 col-lg-12 mg-t-3 mg-sm-t-0">
+              <div class="card card-body">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb breadcrumb-style2 mg-b-0">
+                    <li class="breadcrumb-item"><a href="#">Layanan &amp; Jadwal</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Layanan</li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-xs mg-x-25 mg-b-20 mg-lg-b-25 mg-xl-b-30">
+          <div class="col-sm-24 col-lg-12 mg-t-3 mg-sm-t-0">
+            <div class="d-flex align-items-center">
+              <h1 style="font-size: x-large; margin-right: 10px; margin-bottom: 0">Buat Layanan Baru</h1>
+            </div>
+          </div>
+        </div>
+        <div class="container d-flex flex-column justify-content-center pd-x-200">
+          <ul class="steps steps-tab wd-100p justify-content-center mg-b-10">
+            <li class="step-item complete wd-50p">
+              <a href="service-page-1.html"" class="step-link justify-content-center">
+                <span class="step-number">1</span>
+                <span class="step-title">Detail Layanan</span>
+              </a>
+            </li>
+            <li class="step-item active wd-50p">
+              <a href="service-page-2.html" class="step-link justify-content-center">
+                <span class="step-number">2</span>
+                <span class="step-title">Durasi &amp; Ketersediaan</span>
+              </a>
+            </li>
+          </ul>
+          <div class="card card-body">
+            <form>
+              <h2 style="font-size:large">Rentang Pemesanan Layanan</h2>
+              <div class="container pd-x-20 mg-0">
+                <div class="col">
+                  <div class="form-group row align-items-center">
+                    <div class="col-auto pd-r-0">
+                      <div class="custom-control custom-checkbox pd-l-15">
+                        <input type="checkbox" class="custom-control-input" id="option1">
+                        <label class="custom-control-label" for="option1"></label>
+                      </div>
+                    </div>  
+                    <div class="col-auto pd-r-0">
+                      <input type="number">
+                    </div>
+                    <div class="col-8 pd-r-0">
+                      <select class="form-control select2" id="inputJangka1" placeholder="Jangka" style="width: 420px" required></select>
+                    </div>
+                  </div>
+                  <div class="form-group row">        
+                    <div class="col-auto">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="option2">
+                        <label class="custom-control-label" for="option2">Rentang Waktu Tertentu</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-auto">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="option3">
+                        <label class="custom-control-label" for="option3">Kapan Saja(Tidak Terbatas)</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 style="font-size:large">Durasi Pelayanan</h2>
+              <div class="from-group mg-b-20 pd-x-40">
+                <select class="form-control select2" id="inputDurasi1" placeholder="Durasi" required></select>
+              </div>
+              <hr>
+              <h2 style="font-size:large">Jam Kerja Layanan</h2>
+              <div class="container d-flex flex-column justify-content-center">
+                <div class="card card-body bg-gray-50">
+                  <div class="row justify-content-center">
+                    <div class="form-group d-flex flex-column col-7 mg-0">
+                      <h3 style="font-size:medium">Zona Waktu</h3>
+                      <select class="form-control select2" id="inputTimeZone1" placeholder="Time Zone" required></select>
+
+                      <div class="custom-control custom-checkbox pd-t-20">
+                        <input type="checkbox" class="custom-control-input" id="Senin">
+                        <label class="custom-control-label" for="Senin">Senin</label>
+                      </div>
+                      <div id="jam-kerja-senin"></div>
+                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Selasa">
+                        <label class="custom-control-label" for="Selasa">Selasa</label>
+                      </div>
+                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Rabu">
+                        <label class="custom-control-label" for="Rabu">Rabu</label>
+                      </div>
+                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Kamis">
+                        <label class="custom-control-label" for="Kamis">Kamis</label>
+                      </div>
+                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Jumat">
+                        <label class="custom-control-label" for="Jumat">Jumat</label>
+                      </div>
+                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                    </div>
+                    
+                    <div class="d-flex justify-content-center col-auto">
+                      <div class="divider-notext divider-vertical"></div>
+                    </div>
+
+                    <div class="form-group d-flex flex-column col-4">
+                      <h3 style="font-size:medium">Deviasi/Hari Libur</h3>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary mg-b-20" data-toggle="modal" data-target="#exampleModalCenter">+ Tambah Deviasi</button>
+                    </div>
+                  </div>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="datepicker3" class="justify-content-center"></div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="form-group  d-flex flex-column col-7 mg-0">
+                    <h2 style="font-size:large">Waktu Jeda Sebelum/Setelah Layanan</h2>
+                    <div class="custom-control custom-checkbox mg-t-20">
+                      <input type="checkbox" class="custom-control-input" id="beforeService">
+                      <label class="custom-control-label" for="beforeService">Sebelum Layanan</label>
+                    </div>
+                    <select class="form-control select2" id="rentangWaktuBefore" placeholder="waktuSebelum" required></select>
+                  
+                    <div class="custom-control custom-checkbox mg-t-20">
+                      <input type="checkbox" class="custom-control-input" id="afterService">
+                      <label class="custom-control-label" for="afterService">Setalah Layanan</label>
+                    </div>
+                    <select class="form-control select2" id="rentangWaktuAfter" placeholder="waktuSesudah" required></select>
+                  </div>
+
+                  <div class="col-5" style="font-size: 90%">
+                    <p>Beri Waktu Jeda untuk mempersiapkan/ menyelesaikan dari pelayanan anda</p>
+                    <div class="card card-body color-ui-02">
+                      <div class="card card-body color-ui-02 pd-5">
+                        <div class="row align-items-center">
+                          <div class="col-1 justify-content-center pd-r-10">
+                            <div class="color-tag"></div>
+                          </div>
+                          <div class="col-8 align-items-center pd-0">
+                            <p class="color-text-03 mg-0 " style="font-size: 90%;"><strong>Make Up Wedding(Akad)</strong></p>
+                          </div>
+                          <div class="col-2 justify-content-center">
+                            <i class="fa-regular fa-calendar"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="note-preview"></div>
+                      <hr class="mg-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+
+              <p style="color:blue;"><a href="">Pengaturan Lanjutan ></a></p>
+
+            </form>
+            <div class="">
+              <button type="submit" class="btn btn-secondary pd-0"><a href="service-page-1.html" class="nav-link tx-white">Kembali</a></button>
+              <button type="submit" class="btn btn-primary pd-0"><a href="service-page-2.html" class="nav-link tx-white">Selanjutnya →</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/components-jqueryui/jquery-ui.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/feather-icons/feather.min.js"></script>
+    <script src="lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="lib/jquery.flot/jquery.flot.js"></script>
+    <script src="lib/jquery.flot/jquery.flot.stack.js"></script>
+    <script src="lib/jquery.flot/jquery.flot.resize.js"></script>
+    <script src="lib/chart.js/Chart.bundle.min.js"></script>
+    <script src="lib/jqvmap/jquery.vmap.min.js"></script>
+    <script src="lib/jqvmap/maps/jquery.vmap.usa.js"></script>
+    <script src="lib/quill/quill.min.js"></script>
+    <script src="lib/select2/js/select2.min.js"></script>
+    <script src="lib/spectrum-colorpicker/spectrum.js"></script>
+    <script src="lib/jquery-simple-datetimepicker/jquery.simple-dtpicker.js"></script>
+    <script src="lib/jquery-steps/build/jquery.steps.min.js"></script>
+    <script src="lib/newElement/js/newElement.js"></script>
+
+    <script src="assets/js/dashforge.js"></script>
+    <script src="assets/js/dashforge.aside.js"></script>
+    <script src="assets/js/dashforge.sampledata.js"></script>
+    <script src="assets/js/dashboard-one.js"></script>
+
+    <!-- append theme customizer -->
+    <script src="lib/js-cookie/js.cookie.js"></script>
+    <script src="assets/js/dashforge.settings.js"></script>
+
+    <script>
+      $(function(){
+          'use strict'
+
+          $('.select2').select2({
+            placeholder: '',
+            searchInputPlaceholder: 'Jangka Waktu'
+          });
+
+          $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+          })
+
+          $('#datepicker3').datepicker({
+            showOtherMonths: true,
+            selectOtherMonths: true,
+            changeMonth: true,
+            changeYear: true
+          });
+      })
+    </script>
+  </body>
+</html>

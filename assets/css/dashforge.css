@@ -2641,6 +2641,34 @@ textarea.form-control {
   .btn.disabled, .ui-datepicker-buttonpane button.disabled, .sp-container button.disabled, .btn:disabled, .ui-datepicker-buttonpane button:disabled, .sp-container button:disabled {
     opacity: 0.65; }
 
+.btn-add, .ui-datepicker-buttonpane button, .sp-container button {
+  display: inline-block;
+  font-weight: 400;
+  color: #001737;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.46875rem 0.9375rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  @media (prefers-reduced-motion: reduce) {
+    .btn-add, .ui-datepicker-buttonpane button, .sp-container button {
+      transition: none; } }
+  .btn-add:hover, .ui-datepicker-buttonpane button:hover, .sp-container button:hover {
+    color: #001737;
+    text-decoration: none; }
+  .btn-add:focus, .ui-datepicker-buttonpane button:focus, .sp-container button:focus, .btn-add.focus, .ui-datepicker-buttonpane button.focus, .sp-container button.focus {
+    outline: 0;
+    box-shadow: none; }
+  .btn-add.disabled, .ui-datepicker-buttonpane button.disabled, .sp-container button.disabled, .btn-add:disabled, .ui-datepicker-buttonpane button:disabled, .sp-container button:disabled {
+    opacity: 0.65; }
+
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none; }
@@ -9762,6 +9790,41 @@ textarea.form-control {
   .card-help .card-footer .icon::before {
     width: auto; }
 
+.divider-vertical {
+  flex-direction: column;
+  margin: 0 15px; }
+  .divider-vertical::before, .divider-vertical::after {
+    height: auto;
+    width: 1px; }
+  .divider-vertical::before {
+    margin-right: 0px;
+    margin-bottom: 0px; }
+  .divider-vertical::after {
+    margin-left: 0px;
+    margin-top: 0px; }
+
+.divider-notext {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #8392a5;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
+  letter-spacing: .5px;
+  margin: 15px 0; }
+  .divider-notext::before, .divider-notext::after {
+    content: '';
+    display: block;
+    flex: 1;
+    height: 1px;
+    background-color: #e5e9f2; }
+  .divider-notext::before {
+    margin-right: 0px; }
+  .divider-notext::after {
+    margin-left: 0px; }
+
 .divider-text {
   position: relative;
   display: flex;
@@ -9784,16 +9847,16 @@ textarea.form-control {
   .divider-text::after {
     margin-left: 10px; }
 
-.divider-vertical {
+.divider-verticaltext {
   flex-direction: column;
   margin: 0 15px; }
-  .divider-vertical::before, .divider-vertical::after {
+  .divider-verticaltext::before, .divider-verticaltext::after {
     height: auto;
     width: 1px; }
-  .divider-vertical::before {
+  .divider-verticaltext::before {
     margin-right: 0;
     margin-bottom: 10px; }
-  .divider-vertical::after {
+  .divider-verticaltext::after {
     margin-left: 0;
     margin-top: 10px; }
 
