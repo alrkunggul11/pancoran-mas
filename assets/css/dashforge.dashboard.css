@@ -120,7 +120,7 @@
 }
 .table-dashboard thead th,
 .table-dashboard tbody td {
-  border-color: #e5e9f2;
+  border-color: #EAEAFA;
   white-space: nowrap;
 }
 .table-dashboard thead th:first-child,
@@ -232,7 +232,7 @@
 }
 
 .card-dashboard-table .table th, .card-dashboard-table .table td {
-  border-color: rgba(72, 94, 144, 0.16);
+  border-color: rgba(44, 44, 185, 0.16);
   padding: 10px 15px;
   font-size: 13px;
   text-align: right;
@@ -354,7 +354,7 @@
   background-color: #f5f6fa;
   color: #8392a5;
   letter-spacing: 1px;
-  border-top: 1px solid #e5e9f2;
+  border-top: 1px solid #EAEAFA;
 }
 .list-label:first-of-type {
   border-top-width: 0;
@@ -365,7 +365,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #e5e9f2;
+  border-top: 1px solid #EAEAFA;
 }
 
 .chart-thirteen {
@@ -463,7 +463,7 @@
   font-size: 13px;
 }
 .table-dashboard-two tr + tr td {
-  border-top: 1px solid #e5e9f2;
+  border-top: 1px solid #EAEAFA;
 }
 .table-dashboard-two td {
   vertical-align: top;
@@ -481,4 +481,8 @@
 }
 .table-dashboard-two td:last-child {
   color: #8392a5;
+}
+
+.color-red {
+  color: red;
 }

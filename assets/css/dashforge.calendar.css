@@ -39,7 +39,7 @@
   bottom: 0;
   left: -100%;
   width: 100%;
-  border-right: 1px solid rgba(72, 94, 144, 0.16);
+  border-right: 1px solid rgba(44, 44, 185, 0.16);
   visibility: hidden;
   transition: all 0.3s;
 }
@@ -67,7 +67,7 @@
   left: 0;
   right: 0;
   height: 55px;
-  border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+  border-bottom: 1px solid rgba(44, 44, 185, 0.16);
   display: flex;
   align-items: center;
   padding: 0 15px 0 20px;
@@ -256,7 +256,7 @@
   border-radius: 100%;
 }
 .calendar-inline .ui-datepicker .ui-datepicker-calendar td a:hover {
-  background-color: #e5e9f2;
+  background-color: #EAEAFA;
 }
 .calendar-inline .ui-datepicker .ui-datepicker-calendar td.zero a::before {
   content: "0";
@@ -318,7 +318,7 @@
   margin-bottom: 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+  border-bottom: 1px solid rgba(44, 44, 185, 0.16);
   padding: 0 15px;
 }
 .calendar-content-body .fc-toolbar .fc-button-group button:first-child {
@@ -333,7 +333,7 @@
   height: 32px;
   background-color: #fff;
   background-image: none;
-  border: 1px solid rgba(72, 94, 144, 0.16);
+  border: 1px solid rgba(44, 44, 185, 0.16);
   color: rgba(27, 46, 75, 0.7);
   box-shadow: none;
   padding: 0 15px;
@@ -392,7 +392,7 @@
   background-color: #f5f6fa;
 }
 .calendar-content-body .fc-toolbar button.fc-today-button.fc-state-disabled {
-  border-color: rgba(72, 94, 144, 0.16);
+  border-color: rgba(44, 44, 185, 0.16);
   background-color: #f5f6fa;
   color: #8392a5;
   font-weight: 400;
@@ -513,7 +513,7 @@
 }
 .calendar-content-body .fc-head-container .fc-day-header {
   padding: 5px 0;
-  border-color: rgba(72, 94, 144, 0.16);
+  border-color: rgba(44, 44, 185, 0.16);
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
@@ -524,7 +524,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
 }
 .calendar-content-body td {
-  border-color: rgba(72, 94, 144, 0.16);
+  border-color: rgba(44, 44, 185, 0.16);
 }
 .calendar-content-body td.fc-today {
   background-color: rgba(244, 245, 248, 0.7);
@@ -820,14 +820,14 @@
 }
 .calendar-content-body .fc-listMonth-view .fc-list-item > td.fc-list-item-time,
 .calendar-content-body .fc-listWeek-view .fc-list-item > td.fc-list-item-time {
-  border-top: 1px solid #e5e9f2;
-  border-right: 1px solid #e5e9f2;
+  border-top: 1px solid #EAEAFA;
+  border-right: 1px solid #EAEAFA;
   box-sizing: border-box;
 }
 .calendar-content-body .fc-listMonth-view .fc-list-item > td.fc-list-item-title,
 .calendar-content-body .fc-listWeek-view .fc-list-item > td.fc-list-item-title {
-  border-bottom: 1px solid #e5e9f2;
-  border-right: 1px solid #e5e9f2;
+  border-bottom: 1px solid #EAEAFA;
+  border-right: 1px solid #EAEAFA;
   box-sizing: border-box;
 }
 .calendar-content-body .fc-listMonth-view .fc-list-item + .fc-list-item,

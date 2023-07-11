@@ -62,7 +62,7 @@
 @media (min-width: 375px) {
   .mail-sidebar {
     width: 220px;
-    border-right: 1px solid rgba(72, 94, 144, 0.16);
+    border-right: 1px solid rgba(44, 44, 185, 0.16);
   }
 }
 @media (min-width: 768px) {
@@ -106,7 +106,7 @@
 @media (min-width: 1200px) {
   .mail-group {
     width: 320px;
-    border-right: 1px solid rgba(72, 94, 144, 0.16);
+    border-right: 1px solid rgba(44, 44, 185, 0.16);
   }
 }
 
@@ -117,7 +117,7 @@
   right: 0;
   height: 55px;
   background-color: #fff;
-  border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+  border-bottom: 1px solid rgba(44, 44, 185, 0.16);
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -172,13 +172,13 @@
 }
 .mail-group-body .media + .media {
   margin-top: -1px;
-  border-top: 1px solid #e5e9f2;
+  border-top: 1px solid #EAEAFA;
 }
 
 .mail-group-label {
   display: block;
   padding: 6px 20px;
-  background-color: rgba(229, 233, 242, 0.8);
+  background-color: rgba(234, 234, 250, 0.8);
   text-transform: uppercase;
   font-size: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Inter UI", Roboto, sans-serif;
@@ -214,7 +214,7 @@
   left: 0;
   right: 0;
   height: 55px;
-  border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+  border-bottom: 1px solid rgba(44, 44, 185, 0.16);
   padding: 0 20px;
   display: flex;
   align-items: center;
@@ -271,8 +271,8 @@
 }
 .mail-compose.show.shrink .mail-compose-body {
   padding: 20px;
-  border-left: 1px solid rgba(72, 94, 144, 0.16);
-  border-right: 1px solid rgba(72, 94, 144, 0.16);
+  border-left: 1px solid rgba(44, 44, 185, 0.16);
+  border-right: 1px solid rgba(44, 44, 185, 0.16);
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }

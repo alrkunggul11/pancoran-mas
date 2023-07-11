@@ -43,7 +43,7 @@
   bottom: 0;
   left: -240px;
   width: 240px;
-  border-right: 1px solid rgba(72, 94, 144, 0.16);
+  border-right: 1px solid rgba(44, 44, 185, 0.16);
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
@@ -67,7 +67,7 @@
   left: 0;
   right: 0;
   height: 55px;
-  border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+  border-bottom: 1px solid rgba(44, 44, 185, 0.16);
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -125,7 +125,7 @@
   left: 0;
   right: 0;
   height: 55px;
-  border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+  border-bottom: 1px solid rgba(44, 44, 185, 0.16);
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -211,7 +211,7 @@
 .card-file {
   padding: 10px;
   position: relative;
-  border-color: rgba(72, 94, 144, 0.16);
+  border-color: rgba(44, 44, 185, 0.16);
   transition: all 0.2s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -274,7 +274,7 @@
 
 .media-folder {
   position: relative;
-  border: 1px solid rgba(72, 94, 144, 0.16);
+  border: 1px solid rgba(44, 44, 185, 0.16);
   padding: 10px 12px;
   background-color: #fff;
   border-radius: 0.25rem;

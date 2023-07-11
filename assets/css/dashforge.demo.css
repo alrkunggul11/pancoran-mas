@@ -30,7 +30,7 @@
 }
 .content-components pre[class*=language-],
 .content-components code[class*=language-] {
-  border-color: rgba(72, 94, 144, 0.16);
+  border-color: rgba(44, 44, 185, 0.16);
   font-family: "Roboto Mono", monospace;
   font-size: 12px;
   letter-spacing: normal;
@@ -123,7 +123,7 @@
   letter-spacing: normal;
   padding: 10px;
   background-color: #fff;
-  border: 1px solid rgba(72, 94, 144, 0.16);
+  border: 1px solid rgba(44, 44, 185, 0.16);
   position: relative;
 }
 @media (min-width: 992px) {
@@ -174,7 +174,7 @@
 @media (min-width: 1200px) {
   .section-nav {
     display: block;
-    border-left: 1px solid rgba(72, 94, 144, 0.16);
+    border-left: 1px solid rgba(44, 44, 185, 0.16);
   }
 }
 .section-nav .nav-label {
@@ -234,7 +234,7 @@
 }
 
 .table-components {
-  border: 1px solid rgba(72, 94, 144, 0.16);
+  border: 1px solid rgba(44, 44, 185, 0.16);
 }
 .table-components thead th {
   font-size: 10px;
@@ -243,13 +243,13 @@
   text-transform: uppercase;
   padding: 5px 10px;
   border-bottom: 0;
-  border-color: rgba(72, 94, 144, 0.16);
+  border-color: rgba(44, 44, 185, 0.16);
   background-color: #f5f6fa;
   white-space: nowrap;
 }
 .table-components tbody td {
   padding: 8px 10px;
-  border-color: rgba(72, 94, 144, 0.16);
+  border-color: rgba(44, 44, 185, 0.16);
   font-size: 0.875rem;
 }
 .table-components tbody td code, .table-components tbody td:first-child {
@@ -291,7 +291,7 @@
 
 .demo-modal-btn {
   padding: 10px;
-  border: 1px solid rgba(72, 94, 144, 0.16);
+  border: 1px solid rgba(44, 44, 185, 0.16);
   background-color: #f1f2f6;
 }
 @media (min-width: 576px) {
@@ -388,7 +388,7 @@
 }
 .demo-animate-list .nav-link {
   padding: 7px 10px;
-  background-color: #e5e9f2;
+  background-color: #EAEAFA;
 }
 @media (min-width: 576px) {
   .demo-animate-list .nav-link {

@@ -156,7 +156,7 @@
               <h2 style="font-size:large">Rentang Pemesanan Layanan</h2>
               <div class="container pd-x-20 mg-0">
                 <div class="col">
-                  <div class="form-group row align-items-center">
+                  <div class="form-group row row-xs align-items-center">
                     <div class="col-auto pd-r-0">
                       <div class="custom-control custom-checkbox pd-l-15">
                         <input type="checkbox" class="custom-control-input" id="option1">
@@ -164,13 +164,13 @@
                       </div>
                     </div>  
                     <div class="col-auto pd-r-0">
-                      <input type="number">
+                      <input type="text" class="form-control" id="inputJangkaTahun1" placeholder="" style="width: 38px;" required>
                     </div>
-                    <div class="col-8 pd-r-0">
-                      <select class="form-control select2" id="inputJangka1" placeholder="Jangka" style="width: 420px" required></select>
+                    <div class="col-9 pd-r-0">
+                      <select class="form-control select2" id="inputJangka1" placeholder="Jangka" style="width: 550px;" required></select>
                     </div>
                   </div>
-                  <div class="form-group row">        
+                  <div class="form-group row row-xs">        
                     <div class="col-auto">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="option2">
@@ -178,7 +178,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="form-group row">
+                  <div class="form-group row row-xs">
                     <div class="col-auto">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="option3">
@@ -195,42 +195,42 @@
               <hr>
               <h2 style="font-size:large">Jam Kerja Layanan</h2>
               <div class="container d-flex flex-column justify-content-center">
-                <div class="card card-body bg-gray-50">
-                  <div class="row justify-content-center">
+                <div class="card card-body bg-ui-01">
+                  <div class="row row-xs justify-content-center">
                     <div class="form-group d-flex flex-column col-7 mg-0">
                       <h3 style="font-size:medium">Zona Waktu</h3>
                       <select class="form-control select2" id="inputTimeZone1" placeholder="Time Zone" required></select>
 
                       <div class="custom-control custom-checkbox pd-t-20">
                         <input type="checkbox" class="custom-control-input" id="Senin">
-                        <label class="custom-control-label" for="Senin">Senin</label>
+                        <label class="custom-control-label tx-medium" for="Senin">Senin</label>
                       </div>
                       <div id="jam-kerja-senin"></div>
-                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      <button type="button" class="btn-add btn-primary mg-b-20 bg-ui-02 tx-brand-01 tx-medium bd-0">+ Tambah Jam Kerja</button>
                       
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="Selasa">
-                        <label class="custom-control-label" for="Selasa">Selasa</label>
+                        <label class="custom-control-label tx-medium" for="Selasa">Selasa</label>
                       </div>
-                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      <button type="button" class="btn-add btn-primary mg-b-20 bg-ui-02 tx-brand-01 tx-medium bd-0">+ Tambah Jam Kerja</button>
                       
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="Rabu">
-                        <label class="custom-control-label" for="Rabu">Rabu</label>
+                        <label class="custom-control-label tx-medium" for="Rabu">Rabu</label>
                       </div>
-                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      <button type="button" class="btn-add btn-primary mg-b-20 bg-ui-02 tx-brand-01 tx-medium bd-0">+ Tambah Jam Kerja</button>
                       
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="Kamis">
-                        <label class="custom-control-label" for="Kamis">Kamis</label>
+                        <label class="custom-control-label tx-medium" for="Kamis">Kamis</label>
                       </div>
-                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      <button type="button" class="btn-add btn-primary mg-b-20 bg-ui-02 tx-brand-01 tx-medium bd-0">+ Tambah Jam Kerja</button>
                       
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="Jumat">
-                        <label class="custom-control-label" for="Jumat">Jumat</label>
+                        <label class="custom-control-label tx-medium" for="Jumat">Jumat</label>
                       </div>
-                      <button type="button" class="btn-add btn-primary mg-b-20">+ Tambah Jam Kerja</button>
+                      <button type="button" class="btn-add btn-primary mg-b-20 bg-ui-02 tx-brand-01 tx-medium bd-0">+ Tambah Jam Kerja</button>
                     </div>
                     
                     <div class="d-flex justify-content-center col-auto">
@@ -240,7 +240,7 @@
                     <div class="form-group d-flex flex-column col-4">
                       <h3 style="font-size:medium">Deviasi/Hari Libur</h3>
                       <!-- Button trigger modal -->
-                      <button type="button" class="btn btn-primary mg-b-20" data-toggle="modal" data-target="#exampleModalCenter">+ Tambah Deviasi</button>
+                      <button type="button" class="btn btn-primary mg-b-20 tx-medium" data-toggle="modal" data-target="#exampleModalCenter">+ Tambah Deviasi</button>
                     </div>
                   </div>
 
@@ -268,7 +268,7 @@
               </div>
               <hr>
               <div class="container">
-                <div class="row justify-content-center">
+                <div class="row row-xs justify-content-center">
                   <div class="form-group  d-flex flex-column col-7 mg-0">
                     <h2 style="font-size:large">Waktu Jeda Sebelum/Setelah Layanan</h2>
                     <div class="custom-control custom-checkbox mg-t-20">
@@ -288,14 +288,14 @@
                     <p>Beri Waktu Jeda untuk mempersiapkan/ menyelesaikan dari pelayanan anda</p>
                     <div class="card card-body color-ui-02">
                       <div class="card card-body color-ui-02 pd-5">
-                        <div class="row align-items-center">
+                        <div class="row row-xs align-items-center">
                           <div class="col-1 justify-content-center pd-r-10">
                             <div class="color-tag"></div>
                           </div>
                           <div class="col-8 align-items-center pd-0">
                             <p class="color-text-03 mg-0 " style="font-size: 90%;"><strong>Make Up Wedding(Akad)</strong></p>
                           </div>
-                          <div class="col-2 justify-content-center">
+                          <div class="col-2 justify-content-center pd-r-0">
                             <i class="fa-regular fa-calendar"></i>
                           </div>
                         </div>

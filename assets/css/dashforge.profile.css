@@ -125,7 +125,7 @@
 }
 .nav-line-profile .badge {
   margin-left: 10px;
-  background-color: #e5e9f2;
+  background-color: #EAEAFA;
   color: #8392a5;
 }
 
@@ -134,7 +134,7 @@
   padding-left: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
-  border-left: 1px solid rgba(72, 94, 144, 0.16);
+  border-left: 1px solid rgba(44, 44, 185, 0.16);
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -185,7 +185,7 @@
   left: 10px;
   width: 1px;
   height: 20px;
-  background-color: rgba(72, 94, 144, 0.16);
+  background-color: rgba(44, 44, 185, 0.16);
 }
 @media (min-width: 576px) {
   .timeline-item + .timeline-item::before {
@@ -202,7 +202,7 @@
   flex-shrink: 0;
   padding-left: 25px;
   margin-left: 10px;
-  border-left: 1px solid rgba(72, 94, 144, 0.16);
+  border-left: 1px solid rgba(44, 44, 185, 0.16);
 }
 @media (min-width: 576px) {
   .timeline-time {
@@ -223,7 +223,7 @@
 .timeline-body {
   flex: 1;
   padding-left: 25px;
-  border-left: 1px solid rgba(72, 94, 144, 0.16);
+  border-left: 1px solid rgba(44, 44, 185, 0.16);
   position: relative;
   margin-left: 10px;
 }

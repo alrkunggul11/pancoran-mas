@@ -91,7 +91,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  border-right: 1px solid rgba(72, 94, 144, 0.16);
+  border-right: 1px solid rgba(44, 44, 185, 0.16);
   width: 54px;
   padding: 15px 10px;
 }
@@ -145,7 +145,7 @@
   .contact-sidebar {
     right: auto;
     width: 250px;
-    border-right: 1px solid rgba(72, 94, 144, 0.16);
+    border-right: 1px solid rgba(44, 44, 185, 0.16);
   }
 }
 @media (min-width: 992px) {
@@ -166,7 +166,7 @@
   left: 0;
   right: 0;
   height: 55px;
-  border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+  border-bottom: 1px solid rgba(44, 44, 185, 0.16);
   display: flex;
   align-items: center;
   padding: 0 15px;
@@ -232,7 +232,7 @@
   }
   .contact-list .media.active .avatar-online::after,
   .contact-list .media.active .avatar-offline::after {
-    box-shadow: 0 0 0 2px #e5e9f2;
+    box-shadow: 0 0 0 2px #EAEAFA;
   }
 }
 .contact-list .media-body span {
@@ -277,7 +277,7 @@
   content: "";
   display: block;
   height: 1px;
-  background-color: rgba(229, 233, 242, 0.7);
+  background-color: rgba(234, 234, 250, 0.7);
 }
 .contact-list-divider::before {
   margin-right: 5px;
@@ -331,7 +331,7 @@
   left: 0;
   right: 0;
   height: 55px;
-  border-bottom: 1px solid rgba(72, 94, 144, 0.16);
+  border-bottom: 1px solid rgba(44, 44, 185, 0.16);
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -402,7 +402,7 @@
   top: 0;
   right: -260px;
   bottom: 0;
-  border-left: 1px solid rgba(72, 94, 144, 0.16);
+  border-left: 1px solid rgba(44, 44, 185, 0.16);
   width: 260px;
   padding: 20px;
 }
@@ -421,7 +421,7 @@
   flex-shrink: 0;
   width: 24px;
   height: 24px;
-  background-color: #e5e9f2;
+  background-color: #EAEAFA;
   color: #8392a5;
   border-radius: 100%;
   position: absolute;

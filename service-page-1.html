@@ -117,7 +117,7 @@
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb breadcrumb-style2 mg-b-0">
                     <li class="breadcrumb-item"><a href="#">Layanan &amp; Jadwal</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Layanan</li>
+                    <li class="breadcrumb-item active" aria-current="page" style="">Layanan</li>
                   </ol>
                 </nav>
               </div>
@@ -149,15 +149,18 @@
           <div class="card card-body">
             <form>                
               <div class="form-group">
-                <label for="inputNama1">Nama Layanan</label>
+                <label for="inputNama1" style="font-weight:500">Nama Layanan</label>
+                <label style="color: red;">*</label>
                 <input type="email" class="form-control" id="inputNama1" placeholder="Layanan" required>
               </div>
               <div class="form-group">
-                <label for="inputLokasi1">Lokasi Pelayanan</label>
+                <label for="inputLokasi1" style="font-weight:500">Lokasi Pelayanan</label>
+                <label style="color: red;">*</label>
                 <select class="form-control select2" id="inputLokasi1" placeholder="Lokasi" required></select>
               </div>
               <div class="form-group">
-                <label for="inputHarga1">Harga</label>
+                <label for="inputHarga1" style="font-weight:500">Harga</label>
+                <label style="color: red;">*</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text">Rp.</span>
@@ -166,7 +169,8 @@
                 </div>
               </div>                
               <div class="form-group">
-                <label for="inputDeskripsi1">Deskripsi</label>
+                <label for="inputDeskripsi1" style="font-weight:500">Deskripsi</label>
+                <label style="color: red;">*</label>
                 <div id="inputDeskripsi1">
                   <span class="ql-formats">
                     <select class="ql-font"></select>
@@ -217,7 +221,8 @@
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputLink">Tautan Layanan</label>
+                <label for="inputLink" style="font-weight:500">Tautan Layanan</label>
+                <label style="color: red;">*</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text">aturjadwal.com/monikasmua/</span>
@@ -225,17 +230,19 @@
                   <input type="link" class="form-control" id="inputLink" placeholder="Ketik Tautan Layanan Disini" required>
                 </div>
               </div>
-              <label for="customFile">Gambar Cover</label>
+              <label for="customFile" style="font-weight:500">Gambar Cover</label>
+              <label style="color: red;">*</label>
               <div class="form-group custom-file">
                 <input type="file" class="custom-file-input" id="customFile" required>
                 <label class="custom-file-label" for="customFile">Choose file</label>
               </div>
               <div class="form-group">
-                <p class="d-flex mg-b-10">Pilih Warna</p>
+                <label class="d-flex mg-b-10" style="font-weight:500">Pilih Warna</label>
+                <label style="color: red;">*</label>
                 <input class="flex-column justify-content-center" type="text" id="showPaletteOnly" required>
               </div>
               <div class="">
-                <button type="submit" class="btn btn-secondary pd-0"><a href="service.html" class="nav-link tx-white">Batalkan</a></button>
+                <button type="submit" class="btn btn-secondary pd-0"><a href="service.html" class="nav-link tx-white color-ui-01">Batalkan</a></button>
                 <button type="submit" class="btn btn-primary pd-0"><a href="service-page-2.html" class="nav-link tx-white">Selanjutnya →</a></button>
               </div>
             </form>
