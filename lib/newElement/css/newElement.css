@@ -1,32 +1,106 @@
-.timeRange-style{
-    width:5em;
-    height:2em;
-    box-shadow: 0px 0px 10px var(--clr-gray-med);
-    margin: 0 1em 1em 0;
+.timeRange-style {
+  width: 5em;
+  height: 2em;
+  box-shadow: 0px 0px 10px var(--clr-gray-med);
+  margin: 0 1em 1em 0;
 }
 
-.btn-add{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: inherit;
-    font-weight: inherit;
-
-    + .btn { margin-left: 5px; }
+.btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
-.note-preview{
-    display: flex;
-    width: flex;
-    height: 10px;
-    background-color: rgb(150, 150, 150);
-    margin: 1em 0 1em 0;
+.btn-add + .btn {
+  margin-left: 5px;
 }
 
-.color-tag{
-    border: 1.5px;
-    width: 3px;
-    height: 25px;
-    background-color: rgb(100, 67, 192);
-    margin: 2px 5px 2px 2px;
+.note-preview {
+  display: flex;
+  width: flex;
+  height: 10px;
+  background-color: rgb(150, 150, 150);
+  margin: 1em 0 1em 0;
 }
+
+.color-tag {
+  border: 1.5px;
+  width: 3px;
+  height: 25px;
+  background-color: rgb(100, 67, 192);
+  margin: 2px 5px 2px 2px;
+}
+
+.time-input {
+  width: 5px;
+  height: 5px;
+  border-color: rgb(150, 150, 150);
+  border-radius: 20%;
+}
+
+#drop-area {
+  width: 100%;
+  height: 300px;
+  padding: 30px;
+  background-color: #eaeaea;
+  border: 2px dashed #c0ccda;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.coloricon {
+  width: 25px;
+  height: 25px;
+  list-style: none;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.coloricon:hover {
+  transform: scale(1.2);
+}
+
+#red {
+  background-color: #FF4F21;
+}
+
+#peach{
+  background-color: #FF758F;
+}
+
+#pink{
+  background-color: #EC5DFB;
+}
+
+#violet{
+  background-color: #8349F0;
+}
+
+#blue{
+  background-color: #009AFB;
+}
+
+#turquoise{
+  background-color: #00E8EF;
+}
+
+#green{
+  background-color: #00E88A;
+}
+
+#lime{
+  background-color: #CAF039;
+}
+
+#yellow{
+  background-color: #FBE44E;
+}
+
+#orange{
+  background-color: #FFA62D;
+}
+/*# sourceMappingURL=newElement.css.map */

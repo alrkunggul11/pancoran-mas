@@ -30,9 +30,20 @@
     background-color: rgb(100, 67, 192);
     margin: 2px 5px 2px 2px;
 }
+
 .time-input{
     width: 5px;
     height: 5px;
     border-color: rgb(150, 150, 150);
     border-radius: 20%;
+}
+
+#drop-area{
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    background-color: #eaeaea;
+    border: 2px dashed $color-ui-03;
+    text-align: center;
+    border-radius: 20px;
 }

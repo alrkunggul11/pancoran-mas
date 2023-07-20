@@ -44,6 +44,9 @@
     <link href="lib/spectrum-colorpicker/spectrum.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons-core.min.css" rel="stylesheet">
+
+     <!-- Personal CSS -->
+     <link href="lib/newElement/css/newElement.css" rel="stylesheet">
   </head>
 
   <body>
@@ -117,7 +120,7 @@
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb breadcrumb-style2 mg-b-0">
                     <li class="breadcrumb-item"><a href="#">Layanan &amp; Jadwal</a></li>
-                    <li class="breadcrumb-item active" aria-current="page" style="">Layanan</li>
+                    <li class="breadcrumb-item active" aria-current="page">Layanan</li>
                   </ol>
                 </nav>
               </div>
@@ -147,19 +150,30 @@
             </li>
           </ul>
           <div class="card card-body">
-            <form>                
-              <div class="form-group">
-                <label for="inputNama1" style="font-weight:500">Nama Layanan</label>
+            <form>
+              <div class="form-group flex-column justify-content-center align-items-center">
+                <label for="inputNama1" class="tx-semibold tx-base tx-15">Gambar Cover</label>
                 <label style="color: red;">*</label>
-                <input type="email" class="form-control" id="inputNama1" placeholder="Layanan" required>
+                <label for="input-image" id="drop-area">
+                  <input type="file" accept="image/*" id="input-image" hidden>
+                  <div class="align-items-center" style="height: calc(100vh - 300px)">
+                    <i data-feather="image"></i>
+                    <div class="tx-sans">Upload Foto Sampul Layananmu Disini</div>
+                  </div>
+                </label>
+              </div>           
+              <div class="form-group">
+                <label for="inputNama1" class="tx-semibold tx-base tx-15">Nama Layanan</label>
+                <label style="color: red;">*</label>
+                <input type="text" class="form-control" id="inputNama1" placeholder="Layanan" required>
               </div>
               <div class="form-group">
-                <label for="inputLokasi1" style="font-weight:500">Lokasi Pelayanan</label>
+                <label for="inputLokasi1" class="tx-semibold tx-base tx-15">Lokasi Pelayanan</label>
                 <label style="color: red;">*</label>
                 <select class="form-control select2" id="inputLokasi1" placeholder="Lokasi" required></select>
               </div>
               <div class="form-group">
-                <label for="inputHarga1" style="font-weight:500">Harga</label>
+                <label for="inputHarga1" class="tx-semibold tx-base tx-15">Harga</label>
                 <label style="color: red;">*</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -169,7 +183,7 @@
                 </div>
               </div>                
               <div class="form-group">
-                <label for="inputDeskripsi1" style="font-weight:500">Deskripsi</label>
+                <label for="inputDeskripsi1" class="tx-semibold tx-base tx-15">Deskripsi</label>
                 <label style="color: red;">*</label>
                 <div id="inputDeskripsi1">
                   <span class="ql-formats">
@@ -221,7 +235,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputLink" style="font-weight:500">Tautan Layanan</label>
+                <label for="inputLink" class="tx-semibold tx-base tx-15">Tautan Layanan</label>
                 <label style="color: red;">*</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -230,20 +244,45 @@
                   <input type="link" class="form-control" id="inputLink" placeholder="Ketik Tautan Layanan Disini" required>
                 </div>
               </div>
-              <label for="customFile" style="font-weight:500">Gambar Cover</label>
+              <!-- <label for="customFile" class="tx-semibold tx-base tx-15">Gambar Cover</label>
               <label style="color: red;">*</label>
               <div class="form-group custom-file">
                 <input type="file" class="custom-file-input" id="customFile" required>
                 <label class="custom-file-label" for="customFile">Choose file</label>
+              </div> -->
+              <div class="form-group">
+                <label for="inputLink" class="tx-semibold tx-base tx-15">Warna Layanan</label>
+                <label style="color: red;">*</label>
+                <!-- <div class="input-group">
+                  <input class="flex-column justify-content-center" type="text" id="showPaletteOnly" required>
+                </div> -->
+                <ul class="row col-auto pd-t-0">
+                  <li class="coloricon" id="red"></li>
+                  <li class="coloricon" id="peach"></li>
+                  <li class="coloricon" id="pink"></li>
+                  <li class="coloricon" id="violet"></li>
+                  <li class="coloricon" id="blue"></li>
+                  <li class="coloricon" id="turquoise"></li>
+                  <li class="coloricon" id="green"></li>
+                  <li class="coloricon" id="yellow"></li>
+                  <li class="coloricon" id="lime"></li>
+                  <li class="coloricon" id="orange"></li>
+                </ul>
               </div>
               <div class="form-group">
-                <label class="d-flex mg-b-10" style="font-weight:500">Pilih Warna</label>
-                <label style="color: red;">*</label>
-                <input class="flex-column justify-content-center" type="text" id="showPaletteOnly" required>
+                <div class="card card-body bg-ui-02">
+                  <label class="tx-semibold tx-base tx-15">Pertanyaan Kustom</label>
+                  <p class="tx-ui-02">Berikan kesempatan bertanya untuk pemesan agar memudahkan pelayanan</p>
+                  <div class="row row-xs">
+                    <div class="col-4">
+                      <button class="btn btn-light tx-medium tx-brand-01 tx-13 tx-sans">+ Tambahkan Pertanyaan</button>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="">
-                <button type="submit" class="btn btn-secondary pd-0"><a href="service.html" class="nav-link tx-white color-ui-01">Batalkan</a></button>
-                <button type="submit" class="btn btn-primary pd-0"><a href="service-page-2.html" class="nav-link tx-white">Selanjutnya →</a></button>
+              <div class="pos-right">
+                <button type="submit" class="btn btn-secondary pd-0 bd-transparent bg-transparent"><a href="service.html" class="nav-link tx-ui-3 tx-medium">Batalkan</a></button>
+                <button type="submit" class="btn btn-primary pd-0"><a href="service-page-2.html" class="nav-link tx-white tx-medium">Selanjutnya →</a></button>
               </div>
             </form>
           </div>
