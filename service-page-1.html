@@ -112,7 +112,7 @@
           <a href="" class="nav-link"><i data-feather="help-circle"></i></a>
         </nav>
       </header><!-- content-header -->
-      <div class="content-body align-items-center">
+      <div class="content-body align-items-center mg-x-25 mg-b-20 mg-lg-b-25 mg-xl-b-30">
         <div class="mg-b-20 mg-lg-b-25 mg-xl-b-30">
           <div class="row row-xs">
             <div class="col-sm-24 col-lg-12 mg-t-3 mg-sm-t-0">
@@ -134,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="container d-flex flex-column justify-content-center pd-x-200">
+        <div class="container d-flex flex-column justify-content-center pd-x-200 pd-">
           <ul class="steps steps-tab wd-100p justify-content-center mg-b-10">
             <li class="step-item active wd-50p">
               <a href="service-page-1.html" class="step-link justify-content-center">
@@ -171,7 +171,7 @@
                 <div class="form-group mg-0">
                   <label for="inputLokasi1" class="tx-semibold tx-base tx-15">Lokasi Pelayanan</label>
                   <label style="color: red;">*</label>
-                  <select class="form-control select2" id="inputLokasi1" placeholder="Lokasi" required></select>
+                  <select class="form-control select2-lokasi" id="inputLokasi1" placeholder="Lokasi" required></select>
                 </div>
               </div>
               <div class="form-group">
@@ -320,7 +320,7 @@
       $(function(){
         'use strict'
 
-        $('.select2').select2({
+        $('.select2-lokasi').select2({
           placeholder: 'Tempat Pelayanan',
           searchInputPlaceholder: 'Cari Tempat'
         });

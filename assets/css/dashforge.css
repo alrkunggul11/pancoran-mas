@@ -12528,7 +12528,7 @@ textarea.parsley-success:focus {
 
 .select2-container--default .select2-selection--single {
   background-color: #fff;
-  border-color: #c0ccda;
+  border-color: #c0ccda !important;
   border-radius: 0.25rem;
   height: 38px !important;
   width: 100%;
