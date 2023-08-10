@@ -60,6 +60,13 @@
   transition: transform 0.3s;
 }
 
+.ver-hor-center{
+  position: relative;
+  margin: auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 .coloricon:hover {
   transform: scale(1.2);
 }
