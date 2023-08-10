@@ -155,60 +155,52 @@
             <form>
               <label class="tx-semibold tx-base tx-15">Rentang Pemesanan Layanan</label>
               <label style="color: red;">*</label>
-              <div class="container pd-x-20 mg-0">
-                <div class="col">
-                  <div class="form-group row row-xs align-items-center">
-                    <div class="col-auto pd-r-0">
-                      <div class="custom-control custom-checkbox pd-l-15">
-                        <input type="checkbox" class="custom-control-input" id="option1">
-                        <label class="custom-control-label" for="option1"></label>
-                      </div>
-                    </div>  
-                    <div class="col-auto pd-r-0">
-                      <input type="text" class="form-control wd-38p" id="inputJangkaTahun1" placeholder="" style="width: 38px;" required>
-                    </div>
-                    <div class="col-10 pd-r-0">
-                      <select class="form-control select2-jangka wd-500" id="inputJangka1" placeholder="Jangka" required></select>
-                    </div>
+              <div class="container mg-0 pd-r-0">
+                <div class="form-group row row-xs align-items-center">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="option1">
+                    <label class="custom-control-label" for="option1"></label>
                   </div>
-                  <div class="form-group row row-xs">        
-                    <div class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="option2">
-                        <label class="custom-control-label" for="option2">Rentang Waktu Tertentu</label>
-                      </div>
-                    </div>
+                  <input type="text" class="form-control mg-l-15 mg-r-20 wd-40-f" id="inputJangkaTahun1" placeholder="" style="width: 38px;"required>
+                  <select class="form-control select2-jangka wd-600-f" id="inputJangka1" placeholder="Jangka" required></select>
+                </div>
+                <div class="form-group row row-xs align-items-center pd-l-8">        
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="option2">
+                    <label class="custom-control-label" for="option2">Rentang Waktu Tertentu</label>
                   </div>
-                  <div class="form-group row row-xs">
-                    <div class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="option3">
-                        <label class="custom-control-label" for="option3">Kapan Saja(Tidak Terbatas)</label>
-                      </div>
-                    </div>
+                </div>
+                <div class="form-group row row-xs align-items-center pd-l-8">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="option3">
+                    <label class="custom-control-label" for="option3">Kapan Saja(Tidak Terbatas)</label>
                   </div>
                 </div>
               </div>
               <label class="tx-semibold tx-base tx-15">Durasi Pelayanan</label>
               <label style="color: red;">*</label>
-              <div class="from-group mg-b-20 pd-x-40">
+              <div class="from-group mg-b-20">
                 <select class="form-control select2-durasi" id="inputDurasi1" placeholder="Durasi" required></select>
               </div>
               <hr>
               <label class="tx-semibold tx-base tx-15">Atur Jam Kerja Layanan</label>
               <label style="color: red;">*</label>
-              <div class="container d-flex flex-column justify-content-center"></div>
+              <div class="container d-flex flex-column justify-content-center">
                 <div class="card card-body bg-ui-01 mg-b-20">
-                    <div class="row row-xs">
-                        <div class="col-6 d-flex flex-column">
-                            <button type="button" class="btn btn-primary mg-b-20 bg-transparent tx-black tx-medium bd-ui-03">Menggunakan Jam Kerja yang Sudah Ada</button>
-                        </div>
-                        <div class="col-6 d-flex flex-column">
-                            <button type="button" class="btn btn-primary mg-b-20 bg-transparent tx-black tx-medium bd-ui-03">+ Buat Jam Kerja Baru</button>
-                        </div>
-                    </div>
+                  <div class="row row-xs">
+                      <div class="col-6 d-flex flex-column">
+                          <button type="button" class="btn btn-primary bg-transparent tx-black tx-medium bd-ui-03 mg-b-0">Menggunakan Jam Kerja yang Sudah Ada</button>
+                      </div>
+                      <div class="col-6 d-flex flex-column">
+                          <button type="button" class="btn btn-primary bg-transparent tx-black tx-medium bd-ui-03 mg-b-0">+ Buat Jam Kerja Baru</button>
+                      </div>
+                  </div>
                 </div>
                 <div class="card card-body bg-ui-01">
+                  <div class="container d-flex flex-column justify-content-center pd-x-0">
+                    <h3 class="tx-semibold tx-base tx-14">Jam Kerja yang Digunakan</h3>
+                    <select class="form-control select2-worktime1" id="inputWorkTime1" placeholder="Waktu Kerja" required></select>
+                  </div>
                   <div class="row row-xs justify-content-center">
                     <div class="form-group d-flex flex-column col-7 mg-b-0 mg-r-15">
                       <label class="tx-semibold tx-base tx-14">Zona Waktu</label>
@@ -365,6 +357,11 @@
     <script>
       $(function(){
           'use strict'
+
+          $('.select2-worktime1').select2({
+            placeholder: 'Waktu Kerja',
+            searchInputPlaceholder: 'Pilih Waktu Kerja'
+          });
 
           $('.select2-jangka').select2({
             placeholder: 'Jangka Waktu',

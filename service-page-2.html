@@ -155,43 +155,31 @@
             <form>
               <label class="tx-semibold tx-base tx-15">Rentang Pemesanan Layanan</label>
               <label style="color: red;">*</label>
-              <div class="container pd-x-20 mg-0">
-                <div class="col">
-                  <div class="form-group row row-xs align-items-center">
-                    <div class="col-auto pd-r-0">
-                      <div class="custom-control custom-checkbox pd-l-15">
-                        <input type="checkbox" class="custom-control-input" id="option1">
-                        <label class="custom-control-label" for="option1"></label>
-                      </div>
-                    </div>  
-                    <div class="col-auto pd-r-0">
-                      <input type="text" class="form-control wd-38p" id="inputJangkaTahun1" placeholder="" style="width: 38px;" required>
-                    </div>
-                    <div class="col-10 pd-r-0">
-                      <select class="form-control select2-jangka wd-500" id="inputJangka1" placeholder="Jangka" required></select>
-                    </div>
+              <div class="container mg-0 pd-r-0">
+                <div class="form-group row row-xs align-items-center">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="option1">
+                    <label class="custom-control-label" for="option1"></label>
                   </div>
-                  <div class="form-group row row-xs">        
-                    <div class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="option2">
-                        <label class="custom-control-label" for="option2">Rentang Waktu Tertentu</label>
-                      </div>
-                    </div>
+                  <input type="text" class="form-control mg-l-15 mg-r-20 wd-40-f" id="inputJangkaTahun1" placeholder="" style="width: 38px;"required>
+                  <select class="form-control select2-jangka wd-600-f" id="inputJangka1" placeholder="Jangka" required></select>
+                </div>
+                <div class="form-group row row-xs align-items-center pd-l-8">        
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="option2">
+                    <label class="custom-control-label" for="option2">Rentang Waktu Tertentu</label>
                   </div>
-                  <div class="form-group row row-xs">
-                    <div class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="option3">
-                        <label class="custom-control-label" for="option3">Kapan Saja(Tidak Terbatas)</label>
-                      </div>
-                    </div>
+                </div>
+                <div class="form-group row row-xs align-items-center pd-l-8">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="option3">
+                    <label class="custom-control-label" for="option3">Kapan Saja(Tidak Terbatas)</label>
                   </div>
                 </div>
               </div>
               <label class="tx-semibold tx-base tx-15">Durasi Pelayanan</label>
               <label style="color: red;">*</label>
-              <div class="from-group mg-b-20 pd-x-40">
+              <div class="from-group mg-b-20">
                 <select class="form-control select2-durasi" id="inputDurasi1" placeholder="Durasi" required></select>
               </div>
               <hr>
@@ -249,7 +237,7 @@
                   </div>
 
                   <!-- Modal -->
-                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal fade wd-515-f" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                       <div class="modal-content">
                         <div class="modal-header">
@@ -259,10 +247,20 @@
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
-                        <div class="modal-body">
-                          <div id="datepicker3"></div>
+                        <div class="modal-body justify-content-center">
+                          <div class="row row-xs">
+                            <div class="mg-r-5 mg-l-20">
+                              <select class="form-control select2-BulanLibur col-6 mg-r-5 mg-l-20 wd-200-f" id="inputBulanLibur1" placeholder="Bulan"></select>
+                            </div>
+                            <div class="mg-l-5 mg-d-20">
+                              <select class="form-control select2-TahunLibur col-6 mg-l-5 mg-r-20 wd-200-f" id="inputTahunLibur1" placeholder="Tahun"></select>
+                            </div>
+                          </div>
+                          <div class="mg-y-20 mg-x-20" id="datepicker3"></div>
+                          <p class="tx-medium tx-15 mg-x-20">Ingin tetap ada jam kerja pada hari libur tersebut?</p>
+                          <button type="button" class="btn btn-primary col-11 mg-x-15">+ Tambah Jam Kerja</button>
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer mg-x-20">
                             <button type="button" class="btn btn-secondary col-6 bg-ui-2" data-dismiss="modal">Close</button>
                             <button type="button" class="btn btn-primary col-6">Save changes</button> 
                         </div>
@@ -377,6 +375,16 @@
           });
 
           $('.select2-after').select2({
+            placeholder: 'Pilih Durasi Setelah',
+            searchInputPlaceholder: 'Cari Durasi Sebelum'
+          });
+
+          $('.select2-BulanLibur').select2({
+            placeholder: 'Pilih Durasi Setelah',
+            searchInputPlaceholder: 'Cari Durasi Sebelum'
+          });
+
+          $('.select2-TahunLibur').select2({
             placeholder: 'Pilih Durasi Setelah',
             searchInputPlaceholder: 'Cari Durasi Sebelum'
           });

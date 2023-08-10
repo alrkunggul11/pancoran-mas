@@ -23,7 +23,7 @@
 }
 
 $num: 5;
-@while $num <= 100 {
+@while $num <= 1000 {
   @include make-width($num);
   $num: $num + 5;
 }
