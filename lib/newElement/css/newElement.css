@@ -67,6 +67,11 @@
   transform: translate(0, -50%);
 }
 
+.pos-right{
+  position: fixed;
+  right: 0%;
+}
+
 .coloricon:hover {
   transform: scale(1.2);
 }
